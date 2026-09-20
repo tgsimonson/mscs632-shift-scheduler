@@ -1,0 +1,18 @@
+# employee shift preferences
+# format: name,mon,tue,wed,thu,fri,sat,sun
+# each day is a ranked preference list separated by > (first choice first)
+# valid shifts: morning, afternoon, evening
+# use - for a day the employee is unavailable
+Alice Nguyen,morning,morning>afternoon,morning,afternoon,morning,-,evening
+Ben Carter,afternoon,afternoon,evening>afternoon,afternoon,evening,morning,-
+Carla Diaz,evening,evening>morning,evening,-,evening,evening,morning
+Dmitri Volkov,morning>evening,morning,afternoon,morning,-,afternoon,afternoon
+Elena Ruiz,afternoon>morning,-,morning,evening,afternoon,morning,evening
+Frank Oyelaran,evening,afternoon>evening,-,evening,morning,evening,afternoon
+Grace Kim,morning,evening,afternoon>morning,morning,afternoon,-,morning
+Hassan Ali,-,morning>evening,evening,afternoon,evening,afternoon,evening
+Ingrid Larsen,afternoon,afternoon,morning,evening>morning,-,morning,afternoon
+Jonah Pratt,evening>afternoon,evening,afternoon,morning,morning,evening,-
+# these two compete for the same shifts and exercise conflict resolution
+Kenji Watanabe,morning,morning,morning,morning,morning,morning,morning
+Marcus Webb,morning,morning,evening,morning,evening,morning,morning
